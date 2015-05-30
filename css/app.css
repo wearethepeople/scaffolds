@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700,900);
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+
+/**/ IDEA /**/
+.bars-wrap {
+
+}
+
+.bars-wrap dl {}
+
+/* Bars Headline */
+.bars-wrap dt {
+  background: #eee url("/img/halftone.png");
+  border: 1px solid #000;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Bars Headline > h3 */
+.bars-wrap dt h3 {
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: .75;
+  margin: .4rem .25rem;
+  text-transform: uppercase;
+}
+
+/* Bars Content (dd) */
+.bars-content {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  margin-left: 1.25rem;
+  padding: 0 .25rem;
+}
+
+/* Bars Content:last-child */
+.bars-content:last-child {
+  border-bottom: 1px solid #000;
+}
+
+.bars-content strong {
+  display: block;
+  font-family: 'Krona One', sans-serif;
+  font-size: .4rem;
+  margin-right: .2rem;
+  padding-top: .2rem;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.bars-content p {
+  font-family: 'Courier New', serif;
+  margin: 0;
+  padding: .5rem 0;
+}
+
+.bars-content p:first-child {
+  padding-top: 0;
+}
+
+.bars-content.inline p {
+  display: inline;
+  padding: 0;
+}
+
+.bars-so-above {}
+
+.bars-so-below {
+  border-left: 1px solid #000;
+  padding: 0;
+  text-align: center;
+}
+
+.bars-so-below:last-child {
+  border-right: 1px solid #000;
+}
+
+.bars-so-below strong {
+  border-bottom: 1px solid #000;
+  display: block;
+  font-size: .5rem;
+  margin-right: 0;
+  padding: .2rem .75rem;
+  text-transform: uppercase;
+}
+
+.bars-so-below div {
+  font-family: 'Courier New', serif;
+  font-size: .75rem;
+  min-height: 1rem;
+  padding: .5rem .75rem;
+  text-align: center;
+}
+
+/* Quote */
+.quote {
+  font-size: 1.25rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.quote span {
+  font-size: .75rem;
+  display: block;
+}
